@@ -3,7 +3,7 @@ const app = express()
 
 console.log("hello world")
 //  loop is used to print the numbers in sequence,consecutive.
-let num=2
+let num=6
 for(let i=1; i<=num; i++){
     console.log(i)
 }
