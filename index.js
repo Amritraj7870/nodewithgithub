@@ -21,3 +21,17 @@ console.log("server is running on port 4000")
 })
 
 
+// printing the even numbers from 1 to 10
+
+for(let num=1;num<=10;num++){
+    let count=0;
+    for(let i=2;i<num;i++){
+        if(num%i==0){
+            count++
+        }
+    }
+    if(count==0 && num>1){
+        console.log(num)
+    }
+}
+
